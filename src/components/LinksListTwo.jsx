@@ -1,4 +1,5 @@
 import React from 'react';
+import { usefulLinksTwo } from './LinksData';
 
 export default function LinksListTwo() {
   return (
@@ -14,9 +15,16 @@ export default function LinksListTwo() {
               <span className="month">Nice And Free</span>
             </div>
           </div>
-
           <div className="content-box">
-            <ul></ul>
+            <ul>
+            <ul>
+              {usefulLinksTwo.map((data, key) => {
+                return(
+                  <li key={data.key}><a href={data.href}>{data.title}</a></li>
+                );
+              })}
+            </ul>
+            </ul>
           </div>
           <div className="page-up">
             <a href="#top">

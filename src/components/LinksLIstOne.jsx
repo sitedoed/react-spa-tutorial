@@ -1,4 +1,5 @@
 import React from 'react';
+import { usefulLinksOne } from './LinksData';
 
 export default function LinksLIstOne() {
   return (
@@ -15,7 +16,13 @@ export default function LinksLIstOne() {
             </div>
           </div>
           <div className="content-box">
-            <ul></ul>
+            <ul>
+              {usefulLinksOne.map((data, key) => {
+                return(
+                  <li key={data.key}><a href={data.href}>{data.title}</a></li>
+                );
+              })}
+            </ul>
           </div>
           <div className="page-up">
             <a href="#top">
