@@ -62,7 +62,7 @@ export default function MainNav() {
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link href="#contact">
-                    <a className="" href="https://react-singlepageapp.netlify.app/">
+                    <a className="" href="https://react-spa-tutorial.netlify.app/">
                       Netlify link
                     </a>
                   </Nav.Link>
