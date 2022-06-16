@@ -1,0 +1,13 @@
+.footer {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    position: relative;
+    width: 100%;  
+    text-align: center;
+}
+.arrow_up{
+    font-size: 40px;
+    float: right;
+    margin-right: 10px;
+    color: #2e2321;
+}
