@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './MainNav.css'
 import logo from "../assets/img/logo.png";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 export default function MainNav() {
 
+  const [show, setShow] = useState();
+  const navbarControl = () =>{
+    if (window.scrollY > 100) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", navbarControl);
+    return () => window.removeEventListener("scroll", navbarControl);
+  }, []);
+
   return (
-    <div className="">
+    <div className={`nav ${show && "nav-bg"}`}>
       <Container>
         <Navbar expand="lg" fixed="top" className="main-nav">
           <Container>
