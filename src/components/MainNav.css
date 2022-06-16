@@ -15,10 +15,11 @@
     width:100%;
     transition-timing-function: ease-in;
     transition: 0.5s;
-    z-index: 90;
+    z-index: 99;
 }
 .nav-bg{
     background-color: #333;
+    z-index: 99;
 }
 .navbar-spa a{
     color: #fff;
