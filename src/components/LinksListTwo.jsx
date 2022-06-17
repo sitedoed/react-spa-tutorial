@@ -18,9 +18,9 @@ export default function LinksListTwo() {
           <div className="content-box">
             <ul>
             <ul>
-              {usefulLinksTwo.map((data, key) => {
+              {usefulLinksTwo.map((data) => {
                 return(
-                  <li key={data.key}><a href={data.href}>{data.title}</a></li>
+                  <li key={data.id}><a href={data.href}>{data.title}</a></li>
                 );
               })}
             </ul>

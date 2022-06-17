@@ -17,9 +17,9 @@ export default function LinksLIstOne() {
           </div>
           <div className="content-box">
             <ul>
-              {usefulLinksOne.map((data, key) => {
+              {usefulLinksOne.map((data) => {
                 return(
-                  <li key={data.key}><a href={data.href}>{data.title}</a></li>
+                  <li key={data.id}><a href={data.href}>{data.title}</a></li>
                 );
               })}
             </ul>
