@@ -1,5 +1,5 @@
 import React from 'react';
-import { usefulLinksTwo } from './LinksData';
+import {usefulLinksTwo} from './LinksData';
 
 export default function LinksListTwo() {
   return (
@@ -17,13 +17,11 @@ export default function LinksListTwo() {
           </div>
           <div className="content-box">
             <ul>
-            <ul>
-              {usefulLinksTwo.map((data) => {
+            {usefulLinksTwo.map((data) => {
                 return(
                   <li key={data.id}><a href={data.href}>{data.title}</a></li>
                 );
               })}
-            </ul>
             </ul>
           </div>
           <div className="page-up">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { usefulLinksOne } from './LinksData';
+import {usefulLinksOne} from './LinksData';
 
 export default function LinksLIstOne() {
   return (

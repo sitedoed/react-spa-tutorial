@@ -13,7 +13,6 @@ export default function LinksListThree() {
               <span className="month invisible"></span>
             </div>
           </div>
-
           <div className="content-box">
             <ul>
               <li>This layout was inspired by "Canvas Template"</li>
