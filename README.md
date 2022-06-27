@@ -14,6 +14,19 @@ Viera, Edson
 [https://react-spa-tutorial.netlify.app/](https://react-spa-tutorial.netlify.app/)
 
 
+## Prerequisites
+
+- Basic familiarity with HTML & CSS.
+
+- Basic knowledge of JavaScript and programming.
+
+- Basic understanding of the DOM.
+
+- Familiarity with ES6 syntax and features.
+
+- Node.js and npm installed globally.
+
+
 ## Instructions
 
 - Clone the repo: https://github.com/sitedoed/react-spa-tutorial.git
